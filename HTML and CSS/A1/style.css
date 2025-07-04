@@ -61,7 +61,7 @@ header{
 }
 .Container2{
    
-    width: 990px;
+    width: 1200px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -101,7 +101,7 @@ header{
 .Container3{
     display: flex;
     height : 247.2px ;
-    width: 990px;
+    width: 1200px;
     justify-content: center;
     gap: 150px;
     margin: 0 auto;
