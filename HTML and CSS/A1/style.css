@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    font-family: "DM Sans", sans-serif;
+}
+.Container1{
+    
+    height: 40px;
+    top: 36px;
+    width: 1200px;
+    margin: 12px auto;
+ 
+    display: flex;
+    
+    margin-bottom: 60px;
+}
+header{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+ ul{
+    
+    display: flex;
+    gap: 50px;
+    list-style-type: none ;
+
+
+}
+#loginbtn{
+    color: #25DAC5;
+;
+    background-color:#FFFFFF;
+;
+    text-decoration: none;
+   
+}
+#signupbtn{
+    background: #25DAC5;
+;
+    color:#FFFFFF;
+;
+    border-radius: 20px;
+    text-decoration: none;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+
+}
+.btns{
+    
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+}
+.Container2{
+   
+    width: 990px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+     margin: 0 auto 100px auto;
+
+
+    
+}
+#pageheading{
+    color: #1E0E62;
+   
+    font-size: 58px;
+    text-align: center;
+}
+#pagecon{
+    color: #15143966;
+
+     margin-bottom: 50px;
+    font-size: 22px;
+    text-align: center;
+}
+#crac{
+    text-decoration: none;
+    background-color: #e93a7d;
+    border-radius: 20px;
+    color: aliceblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+
+}
+.Container3{
+    display: flex;
+    height : 247.2px ;
+    width: 990px;
+    justify-content: center;
+    gap: 150px;
+    margin: 0 auto;
+
+    
+}
+.fotcon{
+     color: #15143966;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     margin: auto;
+     width: 200px;
+
+}
+.border{
+    border-right:  2px solid #EBEAED;
+    border-left: 2px solid #EBEAED;
+    padding: 0 150px;
+
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    
+}
