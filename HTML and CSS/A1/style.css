@@ -27,8 +27,13 @@ header{
     display: flex;
     gap: 50px;
     list-style-type: none ;
+    
 
 
+}
+.list1{
+text-decoration: none;
+color: #15143966;
 }
 #loginbtn{
     color: #25DAC5;
