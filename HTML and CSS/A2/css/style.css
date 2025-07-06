@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Heebo:wght@100..900&display=swap');
+.sec{
+    display: flex;
+    justify-content: center;
+}
+.container1 .container2 .container3{
+    width: 1200px;
+}
+
+.navlist{
+    display: flex;
+    gap:15px ;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    
+
+}
+.navlist a{
+    text-decoration: none;
+    color: #000000;
+    
+    
+
+}
+
+.heas{
+    font-size: 44px;
+}
+.cont1{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.cont2{
+    font-size: 18px;
+}
+.cont3{
+    font-size: 20px;
+}
+.cont4{
+    font-size: 22px;
+}
+.cont4{
+    font-size: 30px;
+}
+.ban1{
+    display: flex;
+    align-items: center;
+}
+.ban2{
+    width: 506px;
+}
+#drl{
+    text-decoration: none;
+    background-color: #FF6464;
+    padding: 10px 20px;
+    color:  #FFFFFF;
+
+;
+}
+
+#prof{
+ width: 243px;
+height: 200px;   
+object-fit: cover;
+border-radius: 50%;
+
+
+}
+
+.container2{
+    width: 1200px;
+}
+.container3{
+    width: 1200px;
+
+}
