@@ -3,9 +3,18 @@
     display: flex;
     justify-content: center;
 }
-.container1 .container2 .container3{
+.container1, .container2 ,.container3 ,.header1{
     width: 1200px;
 }
+.container1, .container2 ,.container3 {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.container1{
+    margin-bottom: 40px;
+}
+
+
 
 .navlist{
     display: flex;
@@ -46,6 +55,8 @@
 .ban1{
     display: flex;
     align-items: center;
+    gap: 30px;
+    justify-content: space-between;
 }
 .ban2{
     width: 506px;
@@ -69,9 +80,33 @@ border-radius: 50%;
 }
 
 .container2{
-    width: 1200px;
+
+    background-color: #EDF7FA;
+;
+}
+.cont2Heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.va{
+   
+    color: #00A8CC;
+    text-decoration: none;
+    font-weight: 500;
+}
+.cards{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.card{
+    background-color: #FFFFFF;
+
 }
 .container3{
-    width: 1200px;
+   
 
 }
