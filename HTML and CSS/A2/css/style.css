@@ -100,6 +100,8 @@ border-radius: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 30px;
+    
     
 }
 .va{
@@ -116,9 +118,9 @@ border-radius: 50%;
 }
 .card{
     background-color: #FFFFFF;
-    width: 418px;
+   
     padding-left: 40px;
-    padding-right: 60px;
+    padding-right: 40px;
 
 }
 .container3{
@@ -140,6 +142,8 @@ border-radius: 50%;
 .year{
     background-color: #142850;
     color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px 20px;
 
 }
 .foot{
