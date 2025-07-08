@@ -46,8 +46,15 @@
 .navList ul li a{
     text-decoration: none;
     color:#ffffff;
+    padding: 10px 15px;
+
     
 } 
+.navList ul li a:hover{
+    border: 2px solid white;
+    border-radius: 25px;
+    
+}
 .container2{
     
     display: flex;
