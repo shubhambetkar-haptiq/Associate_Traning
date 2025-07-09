@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.flexer{
+    display: flex;
+    justify-content:space-evenly;
+    padding:20px 0;
+    color: white;
+    align-items: center;
+    
+}
+
+.logo{
+    display: inline;
+    /* justify-content: center;
+    align-items: center; */
+    
+    align-content: center;
+}
+.navBar{
+    display: flex;
+    gap: 280px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navBar ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+    
+}
+.navBarAcc{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.navBarAcc a{
+     list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.memberForm{
+    background-color: #23A6F0;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.banner{
+    background-image: url("./../images/banner.svg");
+    display: flex;
+    min-height: 100vh;
+    background-size: cover;
+    margin-top: -79px;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.heroSection{
+    color: white;
+}
+.heroSection h1{
+   font-size: 58px;
+}
+.heroSection h4{
+   font-size: 20px;
+}
+.heroHead{
+    margin-bottom: 60px;
+}
+.heroLine{
+    margin-bottom: 40px;
+
+}
+.heroLinks{
+    display: flex;
+    gap: 10px;
+    
+
+}
+.heroLink1{
+    background-color:  #23A6F0;
+    padding: 15px 36px;
+    border-radius: 30px;
+    
+
+}
+.heroLink1 a{
+    text-decoration: none;
+    color: white;
+
+}
+.heroLink2{
+    
+    padding: 15px 36px;
+    border-radius: 30px;
+    border: 1px solid white;
+    
+
+}
+.heroLink2 a{
+    text-decoration: none;
+    color: white;
+
+}
+.purpleBack{
+    background-color:#252B42;
+    padding: 112px 0;
+
+
+}
+
+.blocks{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+     
+    
+
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+.blockImg{
+    margin-bottom: 10px;
+}
+.blockHead{
+    margin-bottom: 10px;
+}
+.skyBack{
+    background-color:  #8EC2F2;
+    padding: 112px;
+    justify-items: center;
+}
+.skyBackContent{
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    color: white;
+}
+.headingDesc{
+    margin-bottom: 30px;
+}
+.cards{
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+
+}
+.card{
+    background-color: white;
+    padding: 40px;
+    position: relative;
+}
+.cardHeading{
+    margin-bottom: 10px;
+}
+
+.cardRating{
+    margin-bottom: 10px;
+}
+.cardImg{
+    position: absolute;
+    left: -50px;
+    top: 10;
+
+}
+.purpleBackContent{
+    display: flex;
+    flex-direction: column;
+
+}
+.industryBlocks{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
+}
+.industryCard{
+    position: relative;
+}
+.industryImage{
+    max-width: 100%;
+}
+.industryContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: flex-start;
+
+
+}
+.industryContentLink{
+    background-color: #23A6F0;
+   justify-content: center;
+   padding: 10px 36px;
+   border-radius: 37px;
+   width: 60%;
+   margin-bottom: 20px;
+}
+.industryContentLink a{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.infoCol{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.infoColContent{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    
+    
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    color: white;
+}
+.infoColHead h5{
+    font-size: 16px;
+}
+.infoColContent div {
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.infoColContent a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
