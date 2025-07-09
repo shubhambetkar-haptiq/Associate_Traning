@@ -265,5 +265,14 @@
     color: white;
 
 }
+.icons{
+    display: flex;
+    gap: 15px;
+}
+.footes{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
 
 
