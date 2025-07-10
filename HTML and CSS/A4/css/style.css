@@ -145,11 +145,13 @@
 .skyBack{
     background-color:  #8EC2F2;
     padding: 112px;
-    justify-items: center;
+   justify-content: center;
 }
 .skyBackContent{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .heading{
     display: flex;
@@ -159,12 +161,21 @@
     margin-bottom: 40px;
     color: white;
 }
+.heading p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .headingDesc{
+    display: flex;
+    text-align: center;
+  
     margin-bottom: 30px;
 }
 .cards{
     display: flex;
     gap: 100px;
+
     justify-content: space-around;
 
 }
@@ -189,6 +200,8 @@
 .purpleBackContent{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 .industryBlocks{
@@ -274,5 +287,57 @@
     justify-content: space-between;
     padding: 10px 0;
 }
+@media screen and (max-width:992px) {
+    .container{
+        max-width: 992px;
+        margin: 0 auto;
+    
+    }
+    .cards{
+        flex-direction: column;
+    }
 
+    .navBar{
+        
+        gap: 30px;
+        justify-content: space-around;
+    }
+    .flexer{
+        max-width: 100%;
+        gap: 20px;
+        justify-content: space-around;
+        padding:  20px 20px;
+    }
+    .heroSection{
+        padding-left: 50px;
+       
+    }
+    .blocks{
+        flex-wrap: wrap;
+        justify-content: center;
+      
+    }
+    .cards{
+        flex-direction: column;
+        padding :100px
+        
+    }
+    .card{
+        padding: 40px;
+        width: 550px;
+        
+    }
+    .heading{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .industryBlocks{
+        flex-wrap: wrap;
+    }
+    .info{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
 
