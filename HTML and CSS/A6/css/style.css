@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Work Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.container{
+    width: 1180px;
+    padding: 16px;
+
+}
+.bgGrass{
+    background-color: #74C69D;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.bgGrass1{
+    background-color: #74C69D;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+
+}
+.bgWhite{
+    display: flex;
+    justify-content: center;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   margin-bottom: 40px;
+    
+}
+.header ul li{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+ ul{
+    display: flex;
+    gap: 30px;
+}
+.bannerGreen{
+    display: flex;
+    align-items: center;
+    gap: 90px;footImages
+    margin-bottom: 83px;
+    
+}
+.bannerGreenContent{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    a{
+        color: #000000;
+        background-color: white;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 13px 48px;
+        border-radius: 5px;
+
+    }
+}
+.spaced{
+    letter-spacing: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.grass{
+    color: #74C69D;
+    /* text-align: center; */
+    font-weight: 700;
+    
+}
+.bannerGreenContentHeading{
+    padding: 5px 0;
+    margin-bottom: 15px;    
+    h1{
+        
+    font-size: 40px;
+        }
+        
+}
+.bannerGreenContentPara{
+    margin-bottom: 50px;
+    /* font-size: 15px; */
+    p{
+    font-size: 15px;
+        
+    }
+
+}
+.blackButton{
+    background-color: #212529;
+    padding: 13px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.partners{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 73px;
+}
+.partnersLogo{
+    display: flex;
+    justify-content: space-between;
+}
+.partnersHeading h2{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.partnersDiv{
+    font-size: 20px;
+}
+.aboutBanner1{
+    display: flex;
+    gap: 110px;
+    align-items: center;
+    margin-bottom: 72px;
+}
+.aboutBanner1Desc{
+    display: flex;
+    flex-direction: column;
+    
+}
+.teamProfile{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding: 20px 39px;
+    box-shadow: 3px 4px 12px 1px #00000040; 
+;
+}
+.teamProfileName{
+    font-size: 24px;
+    text-align: left;
+}
+.teamProfilePosition{
+    color: #212529BF;
+    font-size: 15px;
+    text-align: left;
+
+}
+.footImages{
+    display: flex;
+    gap: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
