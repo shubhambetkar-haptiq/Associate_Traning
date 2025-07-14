@@ -8,12 +8,21 @@
 }
 
 
-
-
+header{
+     background-color: #74C69D;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    
+}
 
 .container{
-    width: 1180px;
+    max-width: 1180px;
     padding: 16px;
+    margin:0 auto;
 
 }
 .bgGrass{
@@ -37,13 +46,7 @@
 }
 
 
-.header{
-    display: flex;
-    align-items: center;
-   justify-content: space-between;
-   /* margin-bottom: 40px; */
-    
-}
+
 .header ul li{
     list-style: none;
     a{
@@ -247,4 +250,17 @@
     font-weight: 400;
     text-align: center;
     color: #21252980;
+}
+@media screen and (max-width:991px) {
+    .bannerGreen{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .partnersLogo{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
 }
