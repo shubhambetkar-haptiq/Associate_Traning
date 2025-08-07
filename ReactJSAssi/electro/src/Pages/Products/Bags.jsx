@@ -17,9 +17,9 @@ const searchTerm = useSelector((state) => (state.search.searchTerm ?? '').toLowe
         setBags(data.products);
         setFilteredProducts(data.products);
         // console.log(data);
-        const Reviews = data.products.flatMap(product=>product.reviews.map(review=>({
+        const Reviews = data.products.flatMap(product => (product.reviews || []).map(review => ({
           ...review,
-          productTitle:product.title,
+          productTitle: product.title,
         })) || []
       );
       setReview(Reviews.slice(0,5));

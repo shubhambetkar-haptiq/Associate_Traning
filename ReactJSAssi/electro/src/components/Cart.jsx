@@ -26,7 +26,7 @@ const Cart = () => {
           className="flex items-center gap-4 border-b border-indigo-300 pb-3"
         >
           <img
-            src={item.images[0]}
+            src={item.images && item.images.length > 0 ? item.images[0] : ""}
             alt={item.name}
             className="w-20 h-20 object-cover rounded-lg border border-indigo-300"
             onError={(e) => (e.target.style.display = 'none')}
