@@ -53,7 +53,7 @@ const Footer = () => {
 
       {/* Divider */}
       <div className="border-t border-white/30 mt-10 pt-4 text-center text-sm">
-        &copy; 2025 <span className="font-semibold">electo;</span> All rights reserved.
+        &copy; 2025 <span className="font-semibold">electro</span> All rights reserved.
       </div>
     </footer>
   );
