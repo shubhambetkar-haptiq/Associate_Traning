@@ -8,7 +8,7 @@ const Bags = () => {
   const [Bags, setBags] = useState([]);
 const [review,setReview]=useState([]);
 const [filteredProduct,setFilteredProducts]=useState([]);
-const searchTerm = useSelector((state)=>state.search.searchTerm.toLowerCase());
+const searchTerm = useSelector((state) => (state.search.searchTerm ?? '').toLowerCase());
   useEffect(() => {
     const fetchData = async () => {
       try {

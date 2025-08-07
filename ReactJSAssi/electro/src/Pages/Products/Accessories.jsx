@@ -5,10 +5,10 @@ import { useSelector } from 'react-redux';
 
 const Accessories = () => {
   const [laptops, setLaptops] = useState([]);
-  const [review, setReview] = useState([]);
+  
   const [filteredProducts, setFilteredProducts] = useState([]);
 
-  const searchTerm = useSelector((state) => state.search.searchTerm.toLowerCase());
+ const searchTerm = useSelector((state) => (state.search.searchTerm ?? '').toLowerCase());
 
   useEffect(() => {
     const fetchData = async () => {
@@ -24,7 +24,7 @@ const Accessories = () => {
             productTitle: product.title,
           }))
         );
-        setReview(Reviews.slice(0, 5));
+        
       } catch (error) {
         console.log("Fetch error:", error);
       }

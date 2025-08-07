@@ -48,7 +48,7 @@ const Mainlayout = () => {
         actions={
           <>
             <button
-              className="bg-gradient-to-r from-red-500 via-ameber-400 to-orange-500 font-semibold px-5 py-2 rounded-md shadow hover:brightness-110 transition"
+              className="bg-gradient-to-r from-red-500 via-amber-400 to-orange-500 font-semibold px-5 py-2 rounded-md shadow hover:brightness-110 transition"
               onClick={() => dispatch(closeCart())}
             >
               Close
