@@ -44,7 +44,7 @@ const searchTerm = useSelector((state)=>state.search.searchTerm.toLowerCase());
   return (
     <div className='min-h-screen py-4 px-2 mx-auto'>
      
-      <h2 className='text-4xl capitalize font-bold my-6'>Laptops</h2>
+      <h2 className='text-4xl capitalize font-bold my-6'>Women Bags </h2>
       
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
         {filteredProduct.length > 0 ? (

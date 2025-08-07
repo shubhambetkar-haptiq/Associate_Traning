@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 
 const Tables = () => {
   const [laptops, setLaptops] = useState([]);
-  const [review, setReview] = useState([]);
+ 
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   const searchTerm = useSelector((state) => state.search.searchTerm.toLowerCase());
@@ -24,7 +24,7 @@ const Tables = () => {
             productTitle: product.title,
           }))
         );
-        setReview(Reviews.slice(0, 5));
+     
       } catch (error) {
         console.log("Fetch error:", error);
       }
@@ -48,7 +48,7 @@ const Tables = () => {
 
   return (
     <div className='min-h-screen py-4 px-2 mx-auto'>
-      <h2 className='text-4xl capitalize font-bold my-6'>Tables</h2>
+      <h2 className='text-4xl capitalize font-bold my-6'>Tablets</h2>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
         {filteredProducts.length > 0 ? (
