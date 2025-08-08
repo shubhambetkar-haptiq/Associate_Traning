@@ -26,17 +26,17 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-white shadow-md sticky top-0 z-50">
       <div className="flex justify-between items-center px-6 py-4 relative">
-        {/* Logo */}
+        
         <Link to="/" className="text-2xl font-bold hover:opacity-90">
           <Logo />
         </Link>
 
-        {/* Search Bar */}
+        
         <div className="hidden md:block w-1/3">
           <Search />
         </div>
 
-        {/* Desktop Nav Links */}
+        
         <ul className="hidden lg:flex gap-6 text-gray-600 font-medium">
           {navLinks.map((link) => (
             <li key={link.to} className="hover:underline hover:text-gray-800 transition">
@@ -45,9 +45,9 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Right Side */}
+        
         <div className="flex items-center gap-4">
-          {/* Cart Icon with Count */}
+          
           <button
             onClick={() => dispatch(openCart())}
             className="relative text-2xl text-gray-700 hover:text-indigo-600 transition"
@@ -60,7 +60,7 @@ const Navbar = () => {
             )}  
           </button>
 
-          {/* Login/User */}
+          
           {user ? (
             <Link
               to="/dashboard"
@@ -78,14 +78,14 @@ const Navbar = () => {
             </Link>
           )}
 
-          {/* Mobile Toggle */}
+         
           <button onClick={toggleMenu} className="text-2xl lg:hidden text-gray-600">
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
       </div>
 
-      {/* Mobile Nav Menu */}
+      
       {menuOpen && (
         <ul className="lg:hidden flex flex-col gap-3 px-6 pb-4 text-gray-700 font-medium bg-white">
           {navLinks.map((link) => (

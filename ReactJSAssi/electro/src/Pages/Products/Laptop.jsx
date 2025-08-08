@@ -62,10 +62,7 @@ const Laptop = () => {
         )}
       </div>
 
-      {/* <div className='py-20 px-2'>
-        <h2 className='text-4xl font-semibold mb-10'>What Our Customers Say</h2>
-        <ReviewList reviews={review} />
-      </div> */}
+      
     </div>
   );
 };

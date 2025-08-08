@@ -31,18 +31,18 @@ const Mainlayout = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-slate-100 via-white to-slate-200 text-gray-800">
-      {/* Navbar with theme */}
+      
       <Navbar />
 
-      {/* Main content area */}
+      
       <main className="flex-grow px-4 sm:px-6 md:px-8 py-6">
         <Outlet />
       </main>
 
-      {/* Footer with consistent theme */}
+      
       <Footer />
 
-      {/* Cart Modal with stylized buttons */}
+     
       <CartModal
         ref={modalRef}
         actions={

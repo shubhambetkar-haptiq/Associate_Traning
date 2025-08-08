@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Subnavbar = () => {
   return (
     <div className="flex flex-wrap items-center justify-between px-6 py-4 bg-white shadow-md">
-      {/* All Categories Button */}
+   
       <div>
         <Link
           to="/categories"
@@ -14,7 +14,7 @@ const Subnavbar = () => {
         </Link>
       </div>
 
-      {/* Sub Links */}
+     
       <ul className="flex gap-5 flex-wrap text-gray-700 font-medium">
         {[
           { label: "Laptops", path: "/laptop" },

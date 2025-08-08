@@ -45,9 +45,7 @@ const Home = () => {
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
-        {/* <div className='py-4'>
-          <Brands/>
-        </div> */}
+        
       </div>
     </div>
   );
