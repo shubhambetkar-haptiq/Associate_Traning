@@ -14,6 +14,7 @@ import Dashboard from '../Pages/Dashboard'
 import SmartPhone from '../Pages/Products/SmartPhone'
 import Tables from '../Pages/Products/Tables'
 import Accessories from '../Pages/Products/Accessories'
+import Watches from '../Pages/Products/Watches'
 
 const Router = () => {
      const Router = createBrowserRouter([
@@ -50,6 +51,10 @@ const Router = () => {
         {
           path:"/access",
         element:<Accessories/>
+        },
+        {
+          path:"/watches",
+        element:<Watches/>
         },
         
         {

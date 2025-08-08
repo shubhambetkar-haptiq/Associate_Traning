@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+
 import { useNavigate } from "react-router-dom";
 import {  FaStar } from "react-icons/fa";
 import { useDispatch } from "react-redux";
@@ -6,7 +6,6 @@ import { addToCart } from "../redux/CartSlice";
 
 const ProductCard = ({ product }) => {
   const navigate = useNavigate();
-  // const [isFav, setIsFav] = useState(false);
   const dispatch = useDispatch();
  const handleAddToCart = ()=>{
  dispatch(addToCart(product));

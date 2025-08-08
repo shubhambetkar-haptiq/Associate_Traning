@@ -6,6 +6,6 @@ export const store = configureStore({
     reducer:{
         search:SearchReducer,
         auth: authReducer,
-         cart: cartReducer,
+        cart: cartReducer,
     }
 })

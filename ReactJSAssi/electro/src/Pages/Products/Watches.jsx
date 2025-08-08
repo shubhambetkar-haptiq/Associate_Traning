@@ -6,7 +6,7 @@ import { useSelector } from 'react-redux';
 const Watches = () => {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
-  const [reviews, setReviews] = useState([]);
+  
   const categories = ['mens-watches', 'womens-watches'];
 
   const searchTerm = useSelector((state) =>
@@ -26,13 +26,8 @@ const Watches = () => {
         setFilteredProducts(allProducts);
 
         // Extract reviews from all products
-        const allReviews = allProducts.flatMap(product =>
-          (product.reviews || []).map(review => ({
-            ...review,
-            productTitle: product.title,
-          }))
-        );
-        setReviews(allReviews.slice(0, 5));
+        
+        
       } catch (error) {
         console.error("Error fetching watches data", error);
       }
@@ -67,10 +62,7 @@ const Watches = () => {
         )}
       </div>
 
-      {/* <div className='py-20 px-2'>
-        <h2 className='text-4xl font-semibold mb-10'>What Our Customers Say</h2>
-        <ReviewList reviews={reviews} />
-      </div> */}
+      
     </div>
   );
 };

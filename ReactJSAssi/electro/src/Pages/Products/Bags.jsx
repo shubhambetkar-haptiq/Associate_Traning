@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux';
 const Bags = () => {
   const [Bags, setBags] = useState([]);
 const [review,setReview]=useState([]);
-const [filteredProduct,setFilteredProducts]=useState([]);
+const [filteredProduct,setFilteredProduct]=useState([]);
 const searchTerm = useSelector((state) => (state.search.searchTerm ?? '').toLowerCase());
   useEffect(() => {
     const fetchData = async () => {
@@ -15,7 +15,7 @@ const searchTerm = useSelector((state) => (state.search.searchTerm ?? '').toLowe
         const res = await fetch('https://dummyjson.com/products/category/womens-bags');
         const data = await res.json();
         setBags(data.products);
-        setFilteredProducts(data.products);
+        setFilteredProduct(data.products);
         // console.log(data);
         const Reviews = data.products.flatMap(product => (product.reviews || []).map(review => ({
           ...review,
@@ -36,9 +36,9 @@ const searchTerm = useSelector((state) => (state.search.searchTerm ?? '').toLowe
          product.title.toLowerCase().includes(searchTerm) ||
          product.description.toLowerCase().includes(searchTerm)
        );
-       setFilteredProducts(filtered);
+       setFilteredProduct(filtered);
      } else {
-       setFilteredProducts(Bags);
+       setFilteredProduct(Bags);
      }
    }, [searchTerm,Bags]);
   return (
