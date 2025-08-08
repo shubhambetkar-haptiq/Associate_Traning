@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ProductCard from '../../components/ProductCard';
-import ReviewList from '../../Features/reviewList';
+
 import { useSelector } from 'react-redux';
 
 const Accessories = () => {
@@ -18,13 +18,7 @@ const Accessories = () => {
         setLaptops(data.products);
         setFilteredProducts(data.products);
 
-        const Reviews = data.products.flatMap(product =>
-          (product.reviews || []).map(review => ({
-            ...review,
-            productTitle: product.title,
-          }))
-        );
-        
+       
       } catch (error) {
         console.log("Fetch error:", error);
       }
@@ -37,8 +31,7 @@ const Accessories = () => {
   useEffect(() => {
     if (searchTerm) {
       const filtered = laptops.filter(product =>
-        product.title.toLowerCase().includes(searchTerm) ||
-        product.description.toLowerCase().includes(searchTerm)
+        product.title.toLowerCase().includes(searchTerm)
       );
       setFilteredProducts(filtered);
     } else {

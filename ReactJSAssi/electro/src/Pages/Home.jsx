@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Banner from '../components/Banner/Banner';
 import ProductCard from '../components/ProductCard';
 
 const Home = () => {
@@ -37,7 +36,7 @@ const Home = () => {
 
   return (
     <div className='mb-10 min-h-screen'>
-      <Banner />
+      {/* <Banner /> */}
       <div className='py-4 px-2'>
         <h2 className='text-4xl py-2 mb-4 font-bold'> Products</h2>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 '>

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import ProductCard from '../../components/ProductCard';
-import ReviewList from '../../Features/reviewList';
+
 import { useSelector } from 'react-redux';
 
 const Clothes = () => {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
-  const [reviews, setReviews] = useState([]);
+
   const categories = ['mens-shirts', 'womens-dresses'];
 
   const searchTerm = useSelector((state) =>
@@ -27,14 +27,7 @@ const Clothes = () => {
         setFilteredProducts(allProducts);
 
         // Extract reviews from all products
-        const allReviews = allProducts.flatMap(product =>
-          (product.reviews || []).map(review => ({
-            ...review,
-            productTitle: product.title,
-          }))
-        );
-
-        setReviews(allReviews.slice(0, 5)); // Limit to top 5 reviews
+       
       } catch (error) {
         console.error('Error fetching clothes data', error);
       }
@@ -71,10 +64,7 @@ const Clothes = () => {
         )}
       </div>
 
-      <div className='py-20 px-2'>
-        <h2 className='text-4xl font-semibold mb-10'>What Our Customers Say</h2>
-        <ReviewList reviews={reviews} />
-      </div>
+    
     </div>
   );
 };

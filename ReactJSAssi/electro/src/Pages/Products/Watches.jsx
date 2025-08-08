@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ProductCard from '../../components/ProductCard';
-import ReviewList from '../../Features/reviewList';
+
 import { useSelector } from 'react-redux';
 
 const Watches = () => {

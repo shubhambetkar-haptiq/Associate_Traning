@@ -33,7 +33,7 @@ const Cart = () => {
                 ? item.thumbnail
                 : "https://via.placeholder.com/80?text=No+Image"
             }
-            alt={item.name}
+            alt={item.title}
             className="w-20 h-20 object-cover rounded-lg border border-indigo-300"
             onError={(e) => (e.target.style.display = 'none')}
           />

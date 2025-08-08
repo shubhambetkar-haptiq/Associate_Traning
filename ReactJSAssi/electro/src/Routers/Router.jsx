@@ -9,8 +9,6 @@ import Sign from '../Features/Sign'
 import Laptop from '../Pages/Products/Laptop'
 
 import ProductDetails from '../Features/ProductDetails'
-import ProtectedRoute from '../Features/ProtectedRoute'
-import Dashboard from '../Pages/Dashboard'
 import SmartPhone from '../Pages/Products/SmartPhone'
 import Tables from '../Pages/Products/Tables'
 import Accessories from '../Pages/Products/Accessories'
@@ -61,14 +59,7 @@ const Router = () => {
           path:"/product/:id",
         element:<ProductDetails/>
         },
-           {
-          path: "/dashboard",
-          element: (
-            <ProtectedRoute>
-              <Dashboard/>
-            </ProtectedRoute>
-          ),
-        },
+          
       ]
     },
     

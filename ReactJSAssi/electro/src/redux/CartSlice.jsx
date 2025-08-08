@@ -8,7 +8,7 @@ try {
     storedItems = JSON.parse(item);
   }
 } catch (e) {
-  console.log(e)
+   console.error("Failed to load cart items from localStorage:", e);
   storedItems = [];
 }
 
