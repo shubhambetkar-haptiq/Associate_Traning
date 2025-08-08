@@ -9,7 +9,7 @@ import Sign from '../Features/Sign'
 import Laptop from '../Pages/Products/Laptop'
 
 import ProductDetails from '../Features/ProductDetails'
-import ProtectedRoute from '../Features/ProdectedRoute'
+import ProtectedRoute from '../Features/ProtectedRoute'
 import Dashboard from '../Pages/Dashboard'
 import SmartPhone from '../Pages/Products/SmartPhone'
 import Tables from '../Pages/Products/Tables'
